@@ -1,0 +1,249 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+/* Intro */
+
+#intro {
+    background-color: #1B1A17;
+    text-align: left;
+}
+/* nabbar */
+.navbar {
+    padding: 5px 20px;
+    font-size: 1.3rem;
+}
+.navbar-brand {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin-right: 2%;
+}
+.nav-item {
+    margin: 0 15px;
+}
+.play-btn {
+    background-color: #fce40c;
+    color: #1B1A17;
+}
+.play-btn:hover {
+    background-color: transparent;
+    text-decoration: none;
+    border: 1px solid #fce40c;
+}
+.nav-link {
+    padding: 6px 5px;
+}
+.nav-link:hover {
+    color: #fce40c;
+}
+/* intro container */
+.container-fluid {
+    padding: 3% 6% 0;
+}
+.intro-heading {
+    color: #fce40c;
+    font-weight: 800;
+    font-size: 5rem;
+    letter-spacing: 6px;
+    line-height: 1.3;
+    padding: 6% 0;
+
+}
+.intro-heading>span {
+    color: white;
+}
+.intro-image {
+    position: relative;
+    margin-left: 10%;
+    max-width: 100%;
+}
+.intro-btn {
+    margin: 4% 1%;
+    letter-spacing: 1.5px;
+    font-size: 1.5rem;
+}
+
+/* Map */
+
+#map {
+    background-color: #1B1A17;
+    padding: 0 6% 2%;
+}
+.map-text {
+    display: inline-block;
+    background-color: #fce40c;
+    width: 99%;
+    border-radius: 25px;
+    font-size: 2.3rem;
+}
+.map-images {
+    padding: 10px;
+    max-width: 45%;
+}
+.map-name {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 2px;
+}  
+.map-details {
+    color: #949494;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+}
+
+/* Events */
+
+#events {
+    padding: 4% 6%;
+    background-color: #ededf7;
+}
+.card {
+    background-color: #1B1A17;
+    text-align: left;
+    transition: .2s ease-in;
+    height: 100%;
+}
+.event-card-title {
+    color: white;
+    font-size: 1.8rem;
+    padding: 10px 0;
+}
+.card-text {
+    color: #949494;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+}
+.event-time {
+    padding: 10px 0;
+    margin: 0;
+    color: #acacac;
+    font-weight: 600;
+}
+.event-time>span {
+    color: #fce40c;
+    margin-right: 20px;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.02)
+}
+
+/* News */
+
+#news {
+    padding: 2% 2% 4%;
+    background-color: #ededf7;
+}
+.news-box {
+    background-color: white;
+    margin-top: 10%;
+}
+.news-card-title {
+    color: #1B1A17;
+    font-size: 1.8rem;
+    padding: 5px 0;
+}
+
+/* Footer */
+
+#footer {
+    padding: 4% 6% 1%;
+    background-color: #1B1A17;
+}
+.footer-heading {
+    color: white;
+}
+.footer-heading>span {
+    color: #fce40c;
+    line-height: 2.5;
+}
+.footer-btn {
+    margin: 2% 1%;
+}
+.copyright {
+    margin: 20px 0 5px;
+    color: #ededf7;    
+}
+.footer-links {
+    text-decoration: none;
+    color: #949494;
+    margin: 0 5px;
+}
+.footer-links:hover {
+    color: #cfcfcf;
+}
+
+/* Media Queries */
+
+@media (max-width: 1150px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 995px) {
+    html {
+        font-size: 10px;
+    }
+    /* Intro section */
+    .intro-cont {
+        text-align: center;
+    }
+    .intro-heading {
+        top: 50%;
+        font-size: 4rem;
+        letter-spacing: 2px;
+        padding: 0;
+    }
+    .intro-image {
+        max-width: 80%;
+    }
+    /* Map size */
+    .map-images {
+        max-width: 75%;
+    }
+    /* Event section */
+    .col-lg-6 {
+        padding: 0;
+    }
+    .event-cont {
+        max-width: 97%;
+        margin: 10px auto;
+    }
+    /* News section */
+    .col-lg-4 {
+        padding-bottom: 2%;
+    }
+    .news-box {
+        margin: 10px auto;
+        max-width: 85%;
+    }
+    
+    @media (max-width: 400px) {
+        /* Map size */
+    .map-images {
+        max-width: 100%;
+    }
+        /* Footer (heading & padding change) */
+        .footer-heading {
+            font-size: 1.8rem;
+        }
+        #footer {
+            padding: 4%;
+        }
+    }
+}
