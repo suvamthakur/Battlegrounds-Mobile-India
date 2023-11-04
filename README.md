@@ -1,5 +1,7 @@
-**# Battlegrounds-Mobile-India
-This is a clone website of BGMI. 
-You can visit this website using this link:
-https://suvamthakur.github.io/Battlegrounds-Mobile-India/
-**
+
+# Battlegrounds-Mobile-India
+
+ Explore the clone website of Battlegrounds Mobile India, an expertly crafted clone that faithfully replicates the beloved original. I have created it using HTML CSS Bootstrap to create an enhanced experience you'll love.
+
+Visit the website: https://lnkd.in/dfgHYYdM
+
